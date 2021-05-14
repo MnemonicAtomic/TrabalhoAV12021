@@ -1,0 +1,162 @@
+body {
+    background-color: gold;
+    
+
+}
+
+h1 {
+    text-align: center;
+}
+
+div#login{
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: whitesmoke;
+}
+
+input#login{
+    border-radius: none;
+    outline: none;
+    font-size: 15px;
+}
+
+button#botaologin{
+    background-color: steelblue;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+button#botaologin:hover{
+    background-color: deepskyblue;
+
+}
+
+div#eqcsenha{
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: whitesmoke;
+}
+
+button#botaoeqcsenha{
+    background-color: steelblue;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+button#botaoeqcsenha:hover{
+    background-color: deepskyblue;
+
+}
+
+div#sobre{
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: whitesmoke;
+}
+
+div#contato{
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: whitesmoke;
+}
+
+div#produtos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+div#produto{
+    border: 1px solid whitesmoke;
+    border-radius: 15px;
+    background-color: black;
+    color: whitesmoke;
+    padding: 30px;
+    cursor: pointer;
+
+}
+
+button#compra{
+    background-color: steelblue;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+button#compra:hover{
+    background-color: deepskyblue;
+
+}
+
+div#carrinhoc{
+    text-align: center;
+    border: 1px solid whitesmoke;
+    border-radius: 15px;
+    background-color: black;
+    color: whitesmoke;
+
+}
+
+button#add{
+    background-color: steelblue;
+    border: none;
+    padding: 5px;
+    width: 10%;
+    border-radius: 10px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+button#add:hover{
+    background-color: deepskyblue;
+
+}
+
+button#rem{
+    background-color: steelblue;
+    border: none;
+    padding: 5px;
+    width: 10%;
+    border-radius: 10px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+button#rem:hover{
+    background-color: deepskyblue;
+
+}
+
+
+
